@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Soundboard::Application.config.secret_token = 'eeaf228962b46b0307861dc7454ac0fa4891f02371c94089a610022c754b163fbdab99c73a049175fcbc237923851bd5556e1f695ed4c6aea44c53d47e8e3fb2'
+PhonicPanel::Application.config.secret_token = 'cbc41f512e30445eaf301bd15aa5270f68747f9ce65a1ac3d5bf9bb3aa266d3462fce9b13748fb7ebb6caf7fe6342facea330ee023f67686b7774084231a86ab'
