@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Soundboard::Application.load_tasks
+PhonicPanel::Application.load_tasks
