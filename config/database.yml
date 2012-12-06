@@ -3,7 +3,7 @@ development:
   encoding: unicode
   database: phonic_panel_development
   pool: 5
-  username: root
+  username: Alan
   password:
 
 test:
