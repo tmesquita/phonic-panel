@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @sound_clip.title %>
+</p>
+
+<p>
+  <b>Descriptions:</b>
+  <%= @sound_clip.descriptions %>
+</p>
+
+<p>
+  <b>Sound board:</b>
+  <%= @sound_clip.sound_board_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_sound_clip_path(@sound_clip) %> |
+<%= link_to 'Back', sound_clips_path %>

@@ -1,4 +1,7 @@
 PhonicPanel::Application.routes.draw do
+  resources :sound_clips
+
+
   resources :sound_boards
 
 

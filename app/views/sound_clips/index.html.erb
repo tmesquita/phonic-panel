@@ -1,0 +1,27 @@
+<h1>Listing sound_clips</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Descriptions</th>
+    <th>Sound board</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @sound_clips.each do |sound_clip| %>
+  <tr>
+    <td><%= sound_clip.title %></td>
+    <td><%= sound_clip.descriptions %></td>
+    <td><%= sound_clip.sound_board_id %></td>
+    <td><%= link_to 'Show', sound_clip %></td>
+    <td><%= link_to 'Edit', edit_sound_clip_path(sound_clip) %></td>
+    <td><%= link_to 'Destroy', sound_clip, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Sound clip', new_sound_clip_path %>
