@@ -5,6 +5,7 @@ gem 'pg'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
+gem 'paperclip'
 
 group :development do
   gem 'awesome_print'
