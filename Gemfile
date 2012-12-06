@@ -8,6 +8,7 @@ gem 'omniauth-google-oauth2'
 
 group :development do
   gem 'awesome_print'
+  gem 'git_remote_branch'
 end
 
 group :assets do
