@@ -4,4 +4,5 @@ authors: tmesquita, alnguyen
 
 About
 --
-API for learning mobile app development using Ruboto and Rubymotion.
+API for sound board application.
+Learning mobile app development using Ruboto and Rubymotion.
